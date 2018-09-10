@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NXT Lvl Tutoring</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./css/related-product-slider.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+  </head>
+  <body>
+   <div class="container">
+      <section class="main-content">
+        <header>
+            <nav class="nav-bar">
+              <div class="logo">
+                <img src="img/logo.png">
+              </div>
+              <div class="menu">
+                <img src="img/dropwdown.png" width=50 height=50>
+                <ul class="drop-down">
+                  <li>Pricing</li>
+                  <li>Service</li>
+                  <li>Contact</li>
+                </ul>
+             </div>
+            </nav>
+        </header>
+       <div class="mx-test_wrap">
+
+       	<!-- .mx-product-slider -->
+       	<div class="mx-product-slider" data-new-image="true" data-max-width="768">
+
+       		<!-- item 1 -->
+       		<div>
+       			<img src="./img/slide-1/slide-1.jpg" alt="" data-image-src="./img/slide-1/bg-768.jpg" />
+
+       			<!-- banner -->
+            <div class="mx-slide-banner">
+
+                <h1>NXT Level Tutoring - offers affordable mentor services</h1>
+
+            </div>
+
+       		</div>
+
+       		<!-- item 2 -->
+       		<div>
+       			<img src="./img/slide-2/slide-2.jpg" alt="" data-image-src="./img/slide-2/bg-768.jpg" />
+
+       			<!-- banner -->
+            <div class="mx-slide-banner">
+
+                <h1>We help with college level Business, Accounting, and Math courses </h1>
+
+            </div>
+
+
+       		</div>
+
+       		<!-- item 3 -->
+       		<div>
+       			<img src="./img/slide-3/slide-3.jpg" alt="" data-image-src="./img/slide-3/bg-768.jpg">
+
+       			<!-- banner -->
+            <div class="mx-slide-banner">
+
+                <h1>Our tutors can meet at any public location to provide for students </h1>
+
+            </div>
+
+       			</div>
+
+
+       		</div>
+
+       	</div>
+       	<!-- .mx-product-slider -->
+
+       </div>
+
+     </section>
+     <section class="icon-info">
+      <div class="icon-gallery">
+
+
+         <div class="icon icon1">
+           <img src="img/tutor1.png">
+           <div class="brief">
+             <p>Improve your grades</p>
+           </div>
+         </div>
+
+       <div class="icon icon2">
+         <img src="img/tutor2.png">
+         <div class="brief">
+           <p>Assistance on online classes</p>
+         </div>
+       </div>
+       <div  class="icon icon3">
+         <img src="img/tutor3.png">
+         <div class="brief">
+           <p>Work at your own pace</p>
+         </div>
+       </div>
+       <div  class="icon icon4">
+         <img src="img/tutor4.png">
+         <div class="brief">
+           <p>Help with any assignments</p>
+         </div>
+       </div>
+
+     </div>
+     </section>
+     <section class="detail-info">
+       <div class="detail-post">
+          <h2>Advantages in tutoring with us</h2>
+          <p>Wisers AI Lab is dedicated to the research and development of
+             innovative AI technologies for analysing diversified real-word open-domain big data,
+             to create and power intelligent enterprise solutions. </p>
+       </div>
+     </section>
+      <section class="member-content">
+        <div class="member-info">
+          <div class="member-intro">
+            <div class="member-brief">
+              <p></p>
+            </div>
+          </div>
+          <div class="member-detail">
+            <
+          </div>
+        </div>
+      </section>
+       <footer></footer>
+   </div>
+   <script src="jquery-3.3.1.min.js"></script>
+   <script src="./js/related-product-slider.js"></script>
+   <script src="./js/banners.js"></script>
+   <script src="./js/product-slider.js"></script>
+   <script>
+
+   	$( document ).ready( function() {
+
+   		$( '.mx-product-slider' ).relatedProducts( {
+
+   			'dots': false,
+   			'autoplay'	: true,
+
+   			// banners
+   			'bannerInfiniteAnimation': true,
+   			'bannerPosition': 'topRight',
+   			'bannerEachAnimated': ['slideInDown', 'slideInRight', 'rotateInUpLeft'],
+
+   			// products
+   			'productNumberVisible'  	: 3,
+   			'productPositionSlider' 	: 'bottomRight',
+   			'productSlideSpeed'			: 900,
+   			'productWidthSlider'		: 1100,
+   			'productInfiniteAnimation' 	: true,
+   			'productEachSliderAnimated'	: ['slideInUp', 'slideInRight', 'rotateInUpLeft'],
+
+   			// responsive
+   			'responsive': 	{
+
+   				0	: 	{
+
+   					'nav'	: false,
+
+   					// banners
+   					'bannerWrapWidth'		: 0,
+   					'bannerWrapHeight'		: 180,
+   					'bannerSpaceAround'		: 20,
+   					'bannerPosition'		: 'bottomCenter',
+
+   					// products
+   					'productHeightSlider'  	: 200,
+   					'productWidthSlider'	: 0,
+   					'productNumberVisible'  : 1,
+   					'productPositionSlider'	: 'topCenter'
+
+   				},
+   				400	: 	{
+
+   					'nav'	: false,
+
+   					// banners
+   					'bannerWrapWidth'		: 0,
+   					'bannerWrapHeight'		: 250,
+   					'bannerSpaceAround'		: 20,
+   					'bannerPosition'		: 'bottomCenter',
+
+   					// products
+   					'productHeightSlider'  	: 250,
+   					'productWidthSlider'	: 0,
+   					'productNumberVisible'  : 1,
+   					'productPositionSlider'	: 'topCenter'
+
+   				},
+   				500	: 	{
+
+   					'nav'	: false,
+
+   					// banners
+   					'bannerWrapWidth'		: 0,
+   					'bannerWrapHeight'		: 350,
+   					'bannerSpaceAround'		: 20,
+   					'bannerPosition'		: 'bottomCenter',
+
+   					// products
+   					'productHeightSlider'  	: 300,
+   					'productWidthSlider'	: 0,
+   					'productNumberVisible'  : 1,
+   					'productPositionSlider'	: 'topCenter'
+
+   				},
+   				600	: 	{
+
+   					'nav'	: false,
+
+   					// banners
+   					'bannerWrapWidth'		: 0,
+   					'bannerWrapHeight'		: 450,
+   					'bannerSpaceAround'		: 20,
+   					'bannerPosition'		: 'bottomCenter',
+
+   					// products
+   					'productHeightSlider'  	: 350,
+   					'productWidthSlider'	: 0,
+   					'productNumberVisible'  : 2,
+   					'productPositionSlider'	: 'topCenter'
+
+   				},
+   				768	: 	{
+
+   					// banners
+   					'bannerWrapWidth'		: 540,
+   					'bannerWrapHeight'		: 260,
+   					'bannerSpaceAround'		: 20,
+
+   					// products
+   					'productHeightSlider'  	: 190,
+   					'productWidthSlider'	: 400,
+   					'productNumberVisible'  : 2
+
+   				},
+   				992	: 	{
+
+   					// banners
+   					'bannerWrapWidth'		: 700,
+   					'bannerWrapHeight'		: 300,
+   					'bannerSpaceAround'		: 30,
+
+   					// products
+   					'productHeightSlider'  	: 200,
+   					'productWidthSlider'	: 700
+
+   				},
+   				1170: 	{
+
+   					// banners
+   					'bannerWrapWidth'		: 800,
+   					'bannerWrapHeight'		: 400,
+   					'bannerSpaceAround'		: 40,
+
+   					// products
+   					'productHeightSlider'  	: 250,
+   					'productWidthSlider'	: 700
+
+   				},
+   				1366: 	{
+
+   					// banners
+   					'bannerWrapWidth'		: 700,
+   					'bannerWrapHeight'		: 400,
+   					'bannerSpaceAround'		: 30,
+
+   					// products
+   					'productHeightSlider'  	: 250,
+   					'productWidthSlider'	: 800
+
+   				},
+   				1500: 	{
+
+   					// banners
+   					'bannerWrapWidth'		: 1200,
+   					'bannerWrapHeight'		: 500,
+   					'bannerSpaceAround'		: 60,
+
+   					// products
+   					'productHeightSlider'  	: 350,
+   					'productWidthSlider'	: 1000
+
+   				},
+   				1660: 	{
+
+   					// banners
+   					'bannerWrapWidth'		: 1200,
+   					'bannerWrapHeight'		: 564,
+   					'bannerSpaceAround'		: 80,
+
+   					// products
+   					'productHeightSlider'  	: 330,
+   					'productNumberVisible'  : 4
+
+   				}
+
+   			}
+
+   		} );
+
+   	} );
+
+    	var pushbar = new Pushbar({
+    		blur:true,
+    		overlay:true,
+    	});
+
+   </script>
+  </body>
+</html>
